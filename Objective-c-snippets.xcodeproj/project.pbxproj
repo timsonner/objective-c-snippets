@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		2B4BF5922868CBF80005F0DB /* Objective-c-snippets */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-c-snippets"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4BF5952868CBF80005F0DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B4BF59F2868D28B0005F0DB /* user-input.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "user-input.h"; sourceTree = "<group>"; };
+		2B4BF5A02868D95F0005F0DB /* for-loop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "for-loop.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				2B4BF5952868CBF80005F0DB /* main.m */,
+				2B4BF59F2868D28B0005F0DB /* user-input.h */,
+				2B4BF5A02868D95F0005F0DB /* for-loop.h */,
 			);
 			path = "Objective-c-snippets";
 			sourceTree = "<group>";
@@ -241,6 +245,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MUV3A7R788;
 				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -251,6 +256,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MUV3A7R788;
 				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

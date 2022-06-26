@@ -6,11 +6,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "user-input.h" // to use demonstrateUserInput()
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        demonstrateUserInput();
     }
     return 0;
 }
